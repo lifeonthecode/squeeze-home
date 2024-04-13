@@ -158,4 +158,8 @@
     .nav_items > li {
         padding: 5px 6px;
     }
+
+    .testimonial {
+        padding: 14px 0px 50px;
+    }   
 }

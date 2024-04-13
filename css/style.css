@@ -562,6 +562,31 @@ button.btn{
     border-radius: 50%;
 }
 
+.single_item {
+    max-height: 300px;
+    height: 100%;
+    padding: 20px;
+    background-color: #4C1211;
+    text-align: center;
+}
+
+.single_item img {
+    max-width: 90px;
+    width: 100%;
+    max-height: 90px;
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.single_item p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+    margin-top: 15px;
+}
+
 
 
 /***********************veritas style**********************/
