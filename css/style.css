@@ -1,5 +1,5 @@
 /* google font  */
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -8,8 +8,8 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.f-cedarville{
-    font-family: "Cedarville Cursive", cursive;
+.f-caveat{
+    font-family: "Caveat", cursive;
 }
 
 a {
@@ -53,6 +53,42 @@ button.btn{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 }
+
+
+.sub_title {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29.9px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 17px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.sub_title::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 1px;
+    background-color: #CBD5E0;
+}
+
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+}
+.title span{
+    color: #EED289;
+}
+
 
 
 
@@ -333,6 +369,7 @@ button.btn{
     font-weight: 700;
     line-height: 65px;
     color: rgb(44, 44, 44);
+    text-transform: capitalize;
 }
 
 .about_text_content h1 span {
@@ -371,5 +408,290 @@ button.btn{
 .about_bottom_content .arrow {
     background-color: transparent;
     border: transparent;
+}
+
+
+
+/**********************veritas style******************************/
+.veritas {
+    background-image: url('../assets/veritas.bmp');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0px 280px;
+    /* position: relative; */
+    max-height: 591px;
+    height: 100%;
+}
+
+
+.veritas_container {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.veritas_header {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.veritas_header h4 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29.9px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 17px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.veritas_header h4::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 1px;
+    background-color: #CBD5E0;
+}
+
+.veritas_header h1 {
+    color: #fff;
+}
+.veritas_header p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Caveat", cursive;
+}
+.veritas_header p span {
+    color: #EED289;
+}
+
+
+.veritas_video {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 57px;
+}
+
+.veritas_video #iframe {
+    width: 100%;
+    height: 642px;
+}
+
+
+
+
+/**********************team style*****************/
+
+.team_container {
+    padding: 50px 0px;
+    margin-top: 500px;
+}
+
+
+
+/****************testimonial style***********************/
+
+.testimonial {
+    padding: 80px 0px 50px;
+}
+
+.testimonial_content {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.testimonial_header {
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.testimonial_header h4 {
+    color: #2C2C2C;
+}
+.testimonial_header h1 {
+    color: #2C2C2C;
+}
+.testimonial_header h1 span {
+    color: #A97140;
+}
+
+
+.carousel_item {
+    padding: 30px;
+    min-height: 247px;
+    box-shadow: 0 1px 1px 1px #0000004d;
+    background-color: #5F2323;
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel_item img{
+    max-width: 90px;
+    width: 100%;
+    max-height: 90px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/***********************veritas style**********************/
+
+.veritas_two {
+    background-image: url('../assets/veritas.bmp');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px 85px;
+}
+
+
+.veritas_tabs {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.veritas_tabs .nav-tabs {
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-bottom: 48px;
+}
+
+.veritas_tabs .nav-tabs .nav-link {
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: Prata, serif;
+    background-color: transparent;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin: 5px;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+
+.veritas_tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-radius: 0;
+    background-color: transparent;
+    color: #EED289;
+    border-color: #EED289;
+    text-decoration: none;
+}
+
+
+
+.veritas_tab_content img {
+    width: 100%;
+}
+
+
+
+
+
+/************************faq style***********************************/
+.faq {
+    padding: 80px 0px 50px;
+}
+
+
+.faq_container {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.faq_header {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+.faq_header h4 {
+    color: #2C2C2C;
+}
+
+
+.faq_collapse p {
+    font-size: 22px;
+    font-weight: 500;
+    background-color: transparent;
+    color: black;
+    border-top: 1px solid rgb(203, 213, 224);
+    padding: 18px 0px 18px 17px;
+    margin: 0;
+}
+
+
+.faq_collapse .card-body {
+    border: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(44, 44, 44);
+    padding-top: 0px;
+}
+
+
+
+/********************footer style*********************/
+.footer_container {
+    padding: 48px 0 29px;
+    background-color: #2C2C2C;
+}
+
+.footer {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.footer_logo {
+    max-width: 177px;
+    width: 100%;
+    max-height: 130px;
+    height: 100%;
+    margin-inline: auto;
+}
+.footer_logo img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.copyright p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #616161;
 }
 
