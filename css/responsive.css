@@ -1,0 +1,157 @@
+
+/* xxl large device  */
+@media (min-width:1440px) {
+    .container {
+        padding: auto;
+    }
+
+    .services_wrapper {
+        padding: 28px 23px;
+    }
+}
+
+
+
+
+/* xl  device  */
+@media (min-width:1200px) {
+    .container {
+        padding: 0px;
+    }
+
+    .services_wrapper button {
+        margin-bottom: 6px;
+    }
+
+}
+
+
+
+/* lg  device  */
+@media (min-width:992px) {
+    
+    .banner_video_content {
+        padding: 80px 0px 0px;
+    }
+
+    .banner_video_content #iframe {
+        height: 546px;
+    }
+
+    .services_wrapper {
+        padding: 28px 12px;
+        height: 100%;
+    }
+
+    .about_image {
+        margin-top: 100px;
+    }
+
+    .veritas_video #iframe {
+        height: 546px;
+    }
+
+    .team_container {
+        margin-top: 411px;
+    }
+
+}
+
+
+/* md  device  */
+@media (max-width:991.9px) {
+    
+    .banner_text_content h1 {
+        font-size: 60px;
+    }
+
+    .banner_video_content #iframe {
+        height: 434px;
+    }
+
+    .services_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about_image {
+        margin-top: 200px;
+    }
+
+    .veritas_video #iframe {
+        height: 470px;
+    }
+
+    .team_container {
+        margin-top: 387px;
+    }
+
+}   
+
+
+
+
+/* sm  device  */
+@media (max-width: 767.9px) {
+    .banner {
+        padding: 40px 0px 5px;
+    }
+
+    .banner_video_content #iframe {
+        height: 337px;
+    }
+
+    .services_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about_content {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0px;
+        row-gap: 25px;
+    }
+
+    .about_image {
+        margin-top: 0px;
+    }
+
+
+    .veritas_video {
+        top: -12px;
+    }
+}
+
+
+
+/* mobile   device  */
+@media (max-width: 575.9px) {
+    
+    .banner_text_content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .service_header h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about_text_content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .veritas_header p {
+        font-size: 27px;
+        line-height: 35px;
+
+    }
+
+    .about_bottom_content button.btn.about_btn {
+        width: 100%;
+    }
+}

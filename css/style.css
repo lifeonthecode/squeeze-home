@@ -90,6 +90,18 @@ button.btn{
 }
 
 
+/* mobile menu  */
+.bar_icon {
+	font-size: 30px;
+	border: transparent;
+	background-color: transparent;
+	color: white;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+
 
 
 /***************** header style *************/
@@ -296,7 +308,7 @@ button.btn{
     text-align: center;
     padding: 28px 23px;
     background-color: white;
-    max-height: 303px;
+    min-height: 303px;
     height: 100%;
 }
 
