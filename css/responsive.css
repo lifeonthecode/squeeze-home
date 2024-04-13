@@ -154,4 +154,8 @@
     .about_bottom_content button.btn.about_btn {
         width: 100%;
     }
+
+    .nav_items > li {
+        padding: 5px 6px;
+    }
 }
