@@ -228,6 +228,19 @@ button.btn{
 
 
 
+.banner_video_content {
+    position: relative;
+    z-index: 11;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0px 20px;
+    /* margin-bottom: -26px; */
+}
+
+
+
+
 
 .banner_video_content #iframe{
     width: 100%;
